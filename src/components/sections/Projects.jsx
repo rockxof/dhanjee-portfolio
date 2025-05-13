@@ -16,7 +16,7 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <ProjectList projectName = "Cloud Platform"/>
           <ProjectList projectName = "BlockChain Web App"/>
-          <ProjectList projectName = "Movie App"/>
+          <ProjectList projectName = "Movie App" link = "https://movies-007.netlify.app"/>
           <ProjectList projectName = "E-commerce Website"/>
         </div>
       </div>

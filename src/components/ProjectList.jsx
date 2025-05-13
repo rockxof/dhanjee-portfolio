@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectList = ({projectName}) => {
+const ProjectList = ({projectName, link}) => {
   return (
     
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.2)] transition">
@@ -19,7 +19,7 @@ const ProjectList = ({projectName}) => {
 
               <div className="flex justify-between items-center">
                 <a className="text-blue-400 hover:text-blue-300 transition-colors my-4 mx-auto"
-                 href="#">
+                 href= {link || "#"} >
                   View Project <span className="text-xl"> &#8594;</span>
                 </a>
               </div>
